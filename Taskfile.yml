@@ -1,0 +1,7 @@
+version: "3.0"
+
+tasks:
+  run-local:
+    cmds:
+      - source .env
+      - go run .
